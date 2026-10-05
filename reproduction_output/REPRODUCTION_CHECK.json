@@ -1,0 +1,22 @@
+[
+  {
+    "check": "correctness",
+    "return_code": 0,
+    "log": "reproduction_output\\correctness.log"
+  },
+  {
+    "check": "statistics",
+    "return_code": 0,
+    "log": "reproduction_output\\statistics.log"
+  },
+  {
+    "check": "paper_figures",
+    "return_code": 0,
+    "log": "reproduction_output\\paper_figures.log"
+  },
+  {
+    "check": "pt00_ablation",
+    "return_code": 0,
+    "log": "reproduction_output\\pt00_ablation.log"
+  }
+]

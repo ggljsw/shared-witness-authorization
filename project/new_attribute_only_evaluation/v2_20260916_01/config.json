@@ -1,0 +1,17 @@
+{
+  "schema": "paper-current-backend-experiment-v2",
+  "internal_nodes": 100,
+  "layouts": ["Same-Branch", "Disjoint-Branches"],
+  "candidate_counts": [4, 16],
+  "discovery_seeds": [81013, 82003, 83023, 84011, 85009, 86017],
+  "holdout_seeds": [71011, 72019, 73009, 74017, 75029, 76003],
+  "revocation_seeds": [91009, 92021, 93001],
+  "end_to_end_seeds": [94007, 95003, 96013],
+  "smoke_seeds": [97001, 98003],
+  "warmups": 3,
+  "rounds": 7,
+  "minimum_batch_ms": 20,
+  "cv_threshold": 0.05,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260917
+}

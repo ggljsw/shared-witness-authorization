@@ -1,0 +1,29 @@
+{
+  "schema": "paper-current-backend-freeze-v2",
+  "created_utc": "2026-09-16T15:37:58.819386+00:00",
+  "formal_results_present_at_freeze": false,
+  "protocol_sha256": "c2f8155ce404ea3e1e3edec52401c057fdace091df36a9683d6e20de7756d49e",
+  "files": {
+    "CORRECTNESS_GATE.md": "239ee1ee698d7c176ac86eb33ee0de61154363104a8ac08b0da498e85522f3e1",
+    "ENVIRONMENT.md": "f010f3c468efd8c4f098d7d1606cfdf1f0e33e2495f5ec7b57d1f6eefeef00f8",
+    "FORMULA_CODE_MAP.md": "1ccccd1739344fe115fa858b0347cd50594af2ebdba6dd15c991c2000aed7a04",
+    "PROTOCOL_V2.md": "c2f8155ce404ea3e1e3edec52401c057fdace091df36a9683d6e20de7756d49e",
+    "ROLE_ISOLATION_REPORT.md": "819de78bd46b8e9140bf69bb2331b7af386f729de72170f387b9193cced9e3e7",
+    "config.json": "dccfd82934644b0b773b4cfcd527b257139162dfef23dec07e7a077ec93e5207",
+    "scripts/freeze_protocol.py": "3ebc209bb90fb6f816b15186be71cf2548b0fa8c886509193d1dece7e1a0476c",
+    "scripts/run_benchmark.py": "eafd9b5dbf8b4e57f020a09b08e222b2bc46d090756729acd9a49e3ba7a30dcb",
+    "scripts/run_correctness_gate.py": "661218110d2d8426efff195f536ac5730f77541632b7a5c1940286b6dccd6421",
+    "scripts/run_end_to_end.py": "d2c39feec763cd888cc2db3b32b568f4248da3a9c89da24427bb4a17f6c8752c",
+    "scripts/run_revocation.py": "f79d5beb453f61aa67351cc97029bbf9a0a53945651d68a26e555f338b04f1b8",
+    "src/__init__.py": "784414f95986f11ab580423074fc76b6af7c7f97ded3df698c3b89420f176156",
+    "src/access_tree.py": "575e6e5661f87e918480104b2c050da87ddb9d108d0399062dfd5e346d7d3661",
+    "src/algebra.py": "498722a343b648bcbef1f5388cf4ab54499a2036687ebf3cac62e9dedeed67d9",
+    "src/backend.py": "3d9d04efe7041fdfeac37d852b5f37d48f33541bda23bbeae8602880a682e8ad",
+    "src/execution.py": "605e1c3f078b0595750f1e80c9ed3e9e573096d443734d0072c9994ba2bc3f0a",
+    "src/planner.py": "1e005fb79799c664371723fe16bc2c1fdf6dde2a565ff073b4583f67d6cd2add",
+    "src/user_tree.py": "42e63d12bb22c2d1c52c6dce32f8434fb4e1ca60020042f52926c1f22f0125f9",
+    "src/workload.py": "0fe55c1f2d49a13e2b03bb45eea98116f643469c20e7ee17ebaa835b7e95d8a9",
+    "tests/test_correctness_gate.py": "800da76587ec0888bf6e3dc416bba42911f7ba02735dc598513d599b8e5ea8f2",
+    "tests/test_v2_roles.py": "c2d04b4e8a9e26291145e2bd06388308d38d7d8d3488e08ec928b8c511618eb5"
+  }
+}

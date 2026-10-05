@@ -1,0 +1,31 @@
+{
+  "schema": "v2-final-integrity-audit",
+  "passed": true,
+  "frozen_hash_mismatches": [],
+  "counts": {
+    "discovery_units": 120,
+    "holdout_units": 30,
+    "revocation_sequences": 9,
+    "revocation_events": 36,
+    "end_to_end_units": 9,
+    "authorization_rounds": 5936,
+    "end_to_end_rounds": 238,
+    "raw_files_including_smoke": 170
+  },
+  "configuration_counts": {
+    "Same-Branch_C4": 30,
+    "Same-Branch_C16": 30,
+    "Disjoint-Branches_C4": 30,
+    "Disjoint-Branches_C16": 30
+  },
+  "checks": {
+    "unique_unit_ids": true,
+    "round_count_matches_blocks": true,
+    "all_recorded_values_positive": true
+  },
+  "correctness": {
+    "authorization_units": true,
+    "revocation": true,
+    "end_to_end": true
+  }
+}
