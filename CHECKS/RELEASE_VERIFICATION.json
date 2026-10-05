@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "frozen_files_checked": 21,
+  "raw_files_checked": 170,
+  "delivery_copy_matches": true,
+  "formal_timing_started": false,
+  "correctness_and_reanalysis_steps": [
+    {
+      "check": "correctness",
+      "return_code": 0,
+      "log": "reproduction_output\\correctness.log"
+    },
+    {
+      "check": "statistics",
+      "return_code": 0,
+      "log": "reproduction_output\\statistics.log"
+    },
+    {
+      "check": "paper_figures",
+      "return_code": 0,
+      "log": "reproduction_output\\paper_figures.log"
+    },
+    {
+      "check": "pt00_ablation",
+      "return_code": 0,
+      "log": "reproduction_output\\pt00_ablation.log"
+    }
+  ],
+  "frozen_originals_preserved": true,
+  "serialization_secret_fields_found": 0,
+  "limits": "No production-security certification; dataset experiment variants not included."
+}

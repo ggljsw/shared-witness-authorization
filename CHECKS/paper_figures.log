@@ -1,0 +1,87 @@
+{
+  "audit": {
+    "schema": "v2-final-integrity-audit",
+    "passed": true,
+    "frozen_hash_mismatches": [],
+    "counts": {
+      "discovery_units": 120,
+      "holdout_units": 30,
+      "revocation_sequences": 9,
+      "revocation_events": 36,
+      "end_to_end_units": 9,
+      "authorization_rounds": 5936,
+      "end_to_end_rounds": 238,
+      "raw_files_including_smoke": 170
+    },
+    "configuration_counts": {
+      "Same-Branch_C4": 30,
+      "Same-Branch_C16": 30,
+      "Disjoint-Branches_C4": 30,
+      "Disjoint-Branches_C16": 30
+    },
+    "checks": {
+      "unique_unit_ids": true,
+      "round_count_matches_blocks": true,
+      "all_recorded_values_positive": true
+    },
+    "correctness": {
+      "authorization_units": true,
+      "revocation": true,
+      "end_to_end": true
+    }
+  },
+  "speedups": [
+    {
+      "stage": "discovery",
+      "layout": "Same-Branch",
+      "candidate_count": 4,
+      "instances": 30,
+      "seeds": 6,
+      "median_speedup": 1.0106679849434808,
+      "ci95_low": 1.0042726914488376,
+      "ci95_high": 1.0685136605404055
+    },
+    {
+      "stage": "discovery",
+      "layout": "Same-Branch",
+      "candidate_count": 16,
+      "instances": 30,
+      "seeds": 6,
+      "median_speedup": 1.1633257306933655,
+      "ci95_low": 1.153967832891838,
+      "ci95_high": 1.170792028342993
+    },
+    {
+      "stage": "discovery",
+      "layout": "Disjoint-Branches",
+      "candidate_count": 4,
+      "instances": 30,
+      "seeds": 6,
+      "median_speedup": 1.0053845634290643,
+      "ci95_low": 1.0008101301821204,
+      "ci95_high": 1.0086677547400185
+    },
+    {
+      "stage": "discovery",
+      "layout": "Disjoint-Branches",
+      "candidate_count": 16,
+      "instances": 30,
+      "seeds": 6,
+      "median_speedup": 1.0192951440992832,
+      "ci95_low": 1.0147742863767995,
+      "ci95_high": 1.033965261263771
+    },
+    {
+      "stage": "holdout",
+      "layout": "Same-Branch",
+      "candidate_count": 16,
+      "instances": 30,
+      "seeds": 6,
+      "median_speedup": 1.1585879804645491,
+      "ci95_low": 1.1468355826139642,
+      "ci95_high": 1.1827094008156438
+    }
+  ],
+  "e2e_median_speedup": 1.091207041857852,
+  "figures": 6
+}
